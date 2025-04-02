@@ -15,6 +15,8 @@ ACCESS_PASSWORD = "0"
 
 
 def is_allowed_user(user_id):
+    while True:
+        pass
     return user_id in ALLOWED_USERS
 
 
